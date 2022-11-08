@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/tongarirocinemaproject/tongarirocinemas/static/css/main.5292ebac.css",
+    "main.js": "/tongarirocinemaproject/tongarirocinemas/static/js/main.d3afdf1a.js",
+    "static/media/DoctorStrange2-Banner.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/DoctorStrange2-Banner.80d7973a68f49b851e70.jpg",
+    "static/media/IronMan-Poster.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/IronMan-Poster.0d818ba1b7cea3588e14.jpg",
+    "static/media/HomeAlone-Poster.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/HomeAlone-Poster.056f05da07fbd34148c2.jpg",
+    "static/media/Alien-Poster.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/Alien-Poster.4f475d04ec5465115e00.jpg",
+    "static/media/LOTR-TheReturnOfTheKing-Banner.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/LOTR-TheReturnOfTheKing-Banner.a184955ea7e63a1a1a2c.jpg",
+    "static/media/HotRod-Poster.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/HotRod-Poster.d891658cafab66fec1c3.jpg",
+    "static/media/IronMan-Banner.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/IronMan-Banner.8363278074af39c4bf7d.jpg",
+    "static/media/DoctorStrange2-Poster.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/DoctorStrange2-Poster.b79f6e0bae487516a005.jpg",
+    "static/media/SW-ReturnOfTheJedi-Banner.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/SW-ReturnOfTheJedi-Banner.ce957d0e9565c8e9cddd.jpg",
+    "static/media/LOTR-TheReturnOfTheKing-Poster.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/LOTR-TheReturnOfTheKing-Poster.11dde601fe7a90245346.jpg",
+    "static/media/HotRod-Banner.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/HotRod-Banner.c58cf0265a2e54776cf4.jpg",
+    "static/media/HomeAlone-Banner.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/HomeAlone-Banner.9204d1a2790e2cf7314d.jpg",
+    "static/media/Alien-Banner.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/Alien-Banner.fa5bc315ea47d66d5a4b.jpg",
+    "static/media/SW-ReturnOfTheJedi-Poster.jpg": "/tongarirocinemaproject/tongarirocinemas/static/media/SW-ReturnOfTheJedi-Poster.1d9baf04b143d9378a7c.jpg",
+    "index.html": "/tongarirocinemaproject/tongarirocinemas/index.html",
+    "main.5292ebac.css.map": "/tongarirocinemaproject/tongarirocinemas/static/css/main.5292ebac.css.map",
+    "main.d3afdf1a.js.map": "/tongarirocinemaproject/tongarirocinemas/static/js/main.d3afdf1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5292ebac.css",
+    "static/js/main.d3afdf1a.js"
+  ]
+}
