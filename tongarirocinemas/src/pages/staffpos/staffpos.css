@@ -1,0 +1,252 @@
+.tc__staffpos {
+    
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+    font-family: var(--font-family);
+    color: var(--color-light_text);
+}
+
+.tc__staffpos-container {
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    padding: 10rem;
+    background-color: rgba(12, 12, 12, 0.514);
+}
+
+/* Date Drop Down */
+.tc__staffpos-container_selector-date {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 5rem;
+    width: 500px;
+    align-items: center;
+}
+
+.tc__staffpos-container_selector-date label {
+    justify-self: flex-start;
+}
+
+.tc__staffpos-container_selector-date select {
+    justify-self: flex-end;
+    
+    text-align: right;
+    border-style: none;
+    color: var(--color-light_text);
+    border: none;
+    outline: 0;
+    background: transparent;
+    font: var(--font-family);    
+}
+.tc__staffpos-container_selector-date_list option {
+    background-color: var(--color-dark_background);
+    color: var(--color-dark_text);
+    border-radius: 5px;
+    border: none
+}
+/* Movie Drop Down */
+.tc__staffpos-container_selector-movie {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 5rem;
+    width: 500px;
+    align-items: center;
+}
+
+.tc__staffpos-container_selector-movie label {
+    justify-self: flex-start;
+}
+
+.tc__staffpos-container_selector-movie_list {
+    justify-self: flex-end;
+    
+    text-align: right;
+    border-style: none;
+    color: var(--color-light_text);
+    border: none;
+    outline: 0;
+    background: transparent;
+    font: var(--font-family);    
+}
+
+
+.tc__staffpos-container_selector-movie_list option {
+    
+    border-style: none;
+    border: none;
+    background-color: var(--color-dark_background);
+    color: var(--color-dark_text);
+
+    
+}
+.tc__staffpos-container_selector-movie_list select {
+    background: none;
+    border-style: none;
+    border: none;
+    background: var(--color-dark_background);
+
+    
+}
+    
+
+/* Session Buttons */
+
+.tc__staffpos-container_selector-session {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tc__staffpos-container_selector-session button {
+    margin: 1rem;
+    text-decoration: none;
+    background-color: var(--color-light_background);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font: var(--font-family);
+
+    cursor: pointer;
+
+}
+
+/* Styles for seat selector */
+
+.tc__staffpos-container_selector-cinema {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    perspective: 1000px;
+}
+
+.screen {
+    height: 70px;
+    width: 200px;
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+    box-shadow: 0px 3px 20px white;
+    transform: rotateX(-45deg);
+}
+.seat {
+    height: 18px;
+    width: 18px;
+    background-color: var(--color-secondary);
+    margin: 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.seat:not(.occupied):hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.seat:nth-of-type(2) {
+    margin-right: 18px
+}
+.seat:nth-last-of-type(3) {
+    margin-right: 18px
+}
+
+.seat.selected {
+    background-color: var(--color-primary);
+}
+
+.seat.occupied {
+    background-color: var(--color-light_background);
+}
+.session1.selected,
+.session2.selected {
+    background: var(--color-primary);
+}
+/* Styles for legend */
+.tc__staffpos-container_selector-legend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tc__staffpos-container_selector-legend ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.tc__staffpos-container_selector-legend li {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin: 0rem 1rem 3rem 1rem;
+}
+
+.tc__staffpos-container_selector-legend .seat:not(.occupied):hover {
+    scale: 1;
+    cursor: default;
+}
+
+
+
+/* styles for action button at the bottom of module */
+
+.tc__staffpos-container_selector-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.tc__staffpos-container_selector-action button {
+    width: 10rem;
+    margin: 1rem;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+
+    font-family: var(--font-family);
+    color: var(--color-light_text);
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.tc__staffpos-container_selector-action span  {
+    color: var(--color-primary);
+}
+
+.tc__staffpos-container_selector-action a {
+    text-decoration: none;
+    color: var(--color-light_text);
+}
+
+@media screen and (max-width: 586px) {
+    .tc__staffpos {
+        scale: .8;
+        padding-top: 0;
+    }
+    .tc__staffpos-container {
+        padding-top: 2rem;
+    }
+}
+@media screen and (max-width: 586px) {
+    .tc__staffpos {
+        scale: .6;
+        padding-top: 0;
+        
+    }
+    .tc__staffpos-container {
+        padding-top: 0rem;
+    }
+}

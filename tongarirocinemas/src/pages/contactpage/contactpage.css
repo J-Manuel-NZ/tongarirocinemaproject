@@ -1,0 +1,140 @@
+.tc__contactpage {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tc__contactpage-container {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.tc__contactpage-container h1 {
+    color: var(--color-light_text);
+
+    font-family: var(--font-family);
+    
+}
+
+.tc__contactpage-container_content {
+    display: flex;    
+    align-items: center;
+}
+
+.tc__contactpage-container_content-details {
+    padding: 5rem;
+
+    font-family: var(--font-family);
+    color: var(--color-light_text);
+}
+
+.tc__contactpage-container_content-details_name,
+.tc__contactpage-container_content-details_address,
+.tc__contactpage-container_content-details_email,
+.tc__contactpage-container_content-details_number {
+    display: flex;
+    margin: 1rem; padding: 1rem;
+    align-items: center;
+}
+
+.tc__contactpage-container_content-details_name p,
+.tc__contactpage-container_content-details_address p,
+.tc__contactpage-container_content-details_email p,
+.tc__contactpage-container_content-details_number p {
+    margin-left: 1rem;
+}
+
+.tc__contactpage-container_content-contactform {
+    margin: 1rem;
+    background-color: var(--color-dark_background);
+    border-radius:  10px;
+    padding: 1rem;
+}
+
+.tc__contactpage-container_content-contactform h3 {
+    margin-left: 1rem;
+    color: var(--color-light_text);
+    font-family: var(--font-family);
+
+}
+
+.tc__contactpage-container_content-contactform form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.tc__contactpage-container_content-contactform input,
+.tc__contactpage-container_content-contactform textarea,
+.tc__contactpage-container_content-contactform button {
+    font-family: var(--font-family);
+    width: 25rem;
+    height: 2rem;
+
+    border-style: none;
+    background: var(--color-dark_background);
+    border: none;
+}
+
+.tc__contactpage-container_content-contactform input {
+    padding-left: 1rem;
+    margin: .4rem;
+    border-radius: 10px;
+    color: var(--color-light_text);
+}
+
+.tc__contactpage-container_content-contactform textarea {
+    padding-left: 1rem;
+    margin: .4rem;
+    border-radius: 10px;
+    height: 5rem;
+    color: var(--color-light_text);
+    padding-top: .3rem;
+}
+
+.tc__contactpage-container_content-contactform button {
+    font-weight: 500;
+    font-size: 18px;
+    margin: .4rem;
+    border-radius: 10px;
+    align-self: flex-start;
+    color: var(--color-light_text);
+    width: 10rem;
+    text-align: center;
+    background-color: var(--color-primary);
+
+}
+
+
+@media screen and (max-width: 1014px) {
+    .tc__contactpage-container_content {
+        flex-direction: column;
+        height: 2000px
+    }
+    
+    .tc__contactpage-container_content-details {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .tc__contactpage-container_content-details_name,
+    .tc__contactpage-container_content-details_address,
+    .tc__contactpage-container_content-details_email,
+    .tc__contactpage-container_content-details_number {
+        margin: 0
+    }
+
+    
+}
+
+@media screen and (max-width: 500px) {
+   
+    .tc__contactpage-container_content-contactform {
+        scale: .7;
+    }
+}
+

@@ -1,0 +1,4 @@
+.tc__movieinfopage {
+    display: flex;
+    flex-direction: column;
+}

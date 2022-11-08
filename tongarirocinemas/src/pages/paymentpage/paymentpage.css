@@ -1,0 +1,68 @@
+.tc__paymentpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tc__paymentpage-container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    background: var(--color-dark_background);
+    margin: 10rem;
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
+}
+.tc__paymentpage-container h1 {
+    font-family: var(--font-family);
+    font-size: 32px;
+    line-height: 36px;
+    color: var(--color-light_text);   
+    margin: 1rem;
+}
+.tc__paymentpage-container p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--color-light_text);   
+    margin: 1rem;
+
+    text-align: center;
+}
+
+.tc__paymentpage-container_details form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tc__paymentpage-container_details input {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 23px;
+    width: 200px;
+    color: black;   
+    margin: .1rem;   
+    border-radius: 5px;
+}
+
+.tc__paymentpage-container_details button {
+
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 23px;
+    width: 150px;
+    color: var(--color-light_text);   
+    margin: .1rem;
+    background-color: var(--color-primary);
+    
+    border: none;
+    border-radius: 5px;
+    padding: .5rem;
+    align-self: center;
+}
+.tc__paymentpage-container_details a {
+    text-decoration: none;
+    color: var(--color-light_text);
+}

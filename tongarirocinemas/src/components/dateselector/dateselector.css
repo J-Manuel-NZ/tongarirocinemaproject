@@ -1,0 +1,73 @@
+.tc__dateselector {margin: 4rem}
+
+.tc__dateselector-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-light_text);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px var(--color-secondary) inset;
+    overflow-x: scroll;
+    white-space: nowrap;
+
+}
+
+
+.tc__dateselector-container_date {
+    padding: 1.5rem;
+}
+
+.tc__dateselector-container_date button {
+    border-style: none;
+    background: var(--color-light_background);
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10px;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    cursor: pointer;
+    box-shadow: 0px 1px 3px 0px var(--color-secondary);
+}
+
+.tc__dateselector-container_date button:hover {
+    opacity: .8;
+}
+
+.tc__dateselector-container_date-button.active {
+    background: var(--color-primary);
+    box-shadow: 0px 2px 4px 0px var(--color-secondary) inset;
+}
+
+
+@media screen and (max-width: 1786px) {
+    .tc__dateselector-container {
+        padding: 0;
+        margin-bottom: 0;
+        justify-content: flex-start;
+    }
+
+   
+    .tc__dateselector {margin: 1rem}
+}
+
+@media screen and (max-width: 936px) {
+
+
+    .tc__dateselector-container_date  {
+        scale: .5;
+        margin: 0 -3rem;
+        
+    }
+    .tc__dateselector {margin: 1rem}
+}
+
+
+
+
+

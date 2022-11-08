@@ -1,0 +1,109 @@
+.tc__aboutpage {
+    font-family: var(--font-family);
+}
+
+.tc__aboutpage-container {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2rem 5rem;
+    align-items: center;
+    
+    margin: 5rem;
+}
+
+.tc__aboutpage-container h1 {
+    color: var(--color-light_text);
+    font-weight: 400;
+}
+
+.tc__aboutpage-container p {
+    color: var(--color-light_text);
+    padding-top: 2rem ;
+    line-height: 1.5em;
+}
+
+.tc__aboutpage-container_content {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 1rem;
+}
+
+.tc__aboutpage-container_content-museum {
+    width: 50%;
+    margin: 2rem;
+    margin-left: 0;
+}
+
+.tc__aboutpage-container_content-findus h3,
+.tc__aboutpage-container_content-museum h3 {
+    color: var(--color-light_text);
+    margin-top: 3rem;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.tc__aboutpage-container_content-museum img {
+    width: 100%;
+    height: 500px;
+    padding: 0 5rem 0 0;
+}
+
+.tc__aboutpage-container_content-findus {
+    width: 50%;
+    margin: 2rem;
+    margin-right: 0;
+    
+}
+
+.tc__aboutpage-container_content-findus iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .tc__aboutpage-container p {
+        font-size: 10px;
+    }
+    .tc__aboutpage-container_content {
+        flex-direction: column;
+    }
+    .tc__aboutpage-container_content-museum img {
+        height: 300px;
+    }
+    .tc__aboutpage-container_content-findus,
+    .tc__aboutpage-container_content-museum {
+        width: 100%;
+        justify-self: center;
+        align-self: center;
+        height: 300px;
+    }
+
+   
+}
+
+@media screen and (max-width: 560px) {
+    .tc__aboutpage-container {
+        font-size: 10px;
+        margin: 0;
+        padding: 1rem;
+    }
+    .tc__aboutpage-container_content {
+        flex-direction: column;
+        margin: 0;
+    }
+    .tc__aboutpage-container_content-museum img {
+        height: 100px;
+    }
+    .tc__aboutpage-container_content-findus,
+    .tc__aboutpage-container_content-museum {
+        width: 100%;
+        justify-self: center;
+        align-self: center;
+        height: 100px;
+    }
+
+   
+}

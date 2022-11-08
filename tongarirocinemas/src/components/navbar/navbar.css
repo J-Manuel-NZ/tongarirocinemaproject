@@ -1,0 +1,116 @@
+.tc__navbar {
+    width: 100%;
+    background: var(--color-secondary);
+}
+
+.tc__navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.tc__navbar-container_menu {
+    display: flex;
+    align-items: center;
+}
+
+.tc__navbar-container_menu-container {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.tc__navbar-container_logo a {
+    text-decoration: none;
+    color: var(--color-primary);    
+}
+
+.tc__navbar-container_logo h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.tc__navbar-container_menu-icons {
+    display:flex;
+    justify-content: space-between;
+}
+.tc__navbar-container_menu-icons a {
+    padding: 1.5rem;
+
+    text-decoration: none;
+    color: var(--color-light_text);
+}
+
+
+.tc__navbar-container_menu-container_item a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0 4rem;
+    text-decoration: none;
+    color: var(--color-light_text);
+    letter-spacing: -0.015em;
+}
+
+/* Styling the drop down menu */
+
+.tc__navbar-mobile_menu {
+    display: none;
+}
+
+.tc__navbar-mobile_menu-container {
+    background: var(--color-secondary);
+    position: absolute;
+    display: block;
+    right: 0;
+    z-index: 999;
+    border-radius: 10px;
+}
+
+.tc__navbar-mobile_menu-container_links ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0rem;
+    align-items: flex-end;
+    padding-top: 0;
+}
+
+.tc__navbar-mobile_menu-container_links li {
+    padding: .3rem;
+}
+
+/* Animations for menu */
+.tc__navbar-container_menu-icons a:hover,
+.tc__navbar-container_menu-container li:hover {
+    scale: 1.1;
+}
+
+.tc__navbar-container_menu-icons a:active,
+.tc__navbar-container_menu-container li:active {
+    opacity: .6;
+}
+
+
+
+@media screen and (max-width: 1240px) {
+    .tc__navbar-container_menu-container_item a {
+        padding: 0 1rem;
+    
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .tc__navbar-container_menu-container-menu {
+        display: none;
+    }
+
+    .tc__navbar-mobile_menu {
+        display: block;
+        padding-left: 1rem; 
+    }
+}
